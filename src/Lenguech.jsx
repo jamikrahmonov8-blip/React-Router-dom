@@ -25,7 +25,7 @@ function Lenguech() {
         return (
             <div className="min-h-screen bg-slate-950 flex items-center justify-center">
                 <div className="text-blue-400 text-xl animate-pulse font-mono tracking-widest">LOADING...</div>
-            </div>
+            </div>  
         );
     }
 
@@ -41,7 +41,7 @@ function Lenguech() {
 
                 <div className="flex flex-col lg:flex-row justify-between items-center gap-16 mb-24">
                     <div className="flex-1 order-2 lg:order-1">
-                        <div className="inline-block px-4 py-1 rounded-md bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-[3px] mb-6">
+                        <div className="inline-block px-4 py-1 rounded-md bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold tracking-widest mb-6">
                             {prod.category}
                         </div>
                         <h1 className="text-7xl font-black mb-8 tracking-tighter leading-none">
@@ -67,7 +67,7 @@ function Lenguech() {
                         <div className="relative bg-slate-900/50 backdrop-blur-xl p-12 rounded-[50px] border border-slate-800 shadow-2xl">
                             <img 
                                 src={prod.image_url} 
-                                alt={prod.title} 
+                                alt="" 
                                 className="w-72 h-72 object-contain drop-shadow-[0_0_30px_rgba(255,255,255,0.1)]"
                             />
                         </div>
