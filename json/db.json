@@ -1,0 +1,82 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "HTML и CSS",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+      "description": "Изучите строительные блоки веба",
+      "duration": "1 месяц",
+      "category": "Фронтенд",
+      "style": {
+        "main": "#ea4435",
+        "bg": "#2d1b1e",
+        "glow": "rgba(234, 68, 53, 0.3)"
+      }
+    },
+    {
+      "id": 2,
+      "title": "JavaScript",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      "description": "Освойте основы программирования с JavaScript",
+      "duration": "2 месяца",
+      "category": "Фронтенд",
+      "style": {
+        "main": "#f7df1e",
+        "bg": "#2d2a1b",
+        "glow": "rgba(247, 223, 30, 0.2)"
+      }
+    },
+    {
+      "id": 3,
+      "title": "React",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      "description": "Создавайте интерактивные интерфейсы",
+      "duration": "3 месяца",
+      "category": "Фронтенд",
+      "style": {
+        "main": "#61dafb",
+        "bg": "#1b2a2d",
+        "glow": "rgba(97, 218, 251, 0.3)"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Дизайн",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+      "description": "Проектируйте идеальные интерфейсы",
+      "duration": "2 месяца",
+      "category": "Дизайн",
+      "style": {
+        "main": "#a259ff",
+        "bg": "#241b2d",
+        "glow": "rgba(162, 89, 255, 0.3)"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Основы C++",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+      "description": "Погрузитесь в системное программирование",
+      "duration": "4 месяца",
+      "category": "Разработка",
+      "style": {
+        "main": "#00599c",
+        "bg": "#1b212d",
+        "glow": "rgba(0, 89, 156, 0.3)"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Python",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+      "description": "Универсальный язык для данных и веба",
+      "duration": "3 месяца",
+      "category": "Разработка",
+      "style": {
+        "main": "#3776ab",
+        "bg": "#1b262d",
+        "glow": "rgba(55, 118, 171, 0.3)"
+      }
+    }
+  ]
+}
